@@ -15,7 +15,7 @@ class Dice:
         
 
 
-if __name__ == __main__
+if __name__ == "__main__"
     while True:
         """Keep making dice until code is stopped"""
         sides = input("Input the number of side of your die, or 'stop' to stop:")
