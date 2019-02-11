@@ -7,14 +7,15 @@ class Dice:
         self.sides = sides
     def roll(self):
         """Rolls die and returns result
-        Args: Number of sides
-        Returns: Result from rolling die
+        Args: 
+            sides(int): Number of sides
+        Returns: An int which is the result from rolling die
         """
         return random.randint(0,sides)
         
 
 
-if __name__ == "main"
+if __name__ == __main__
     while True:
         """Keep making dice until code is stopped"""
         sides = input("Input the number of side of your die, or 'stop' to stop:")
